@@ -4,6 +4,7 @@ import Craft from "./craftItem/Craft";
 import CraftSubcat from "./craftSubcat/CraftSubcat";
 import Map from "./map/Map";
 import CustomIdea from "./customIdea/CustomIdea";
+import NewsLetterSign from "./newsLetter/NewsLetterSign";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Craft></Craft>
             <CraftSubcat></CraftSubcat>
             <Map></Map>
+            <NewsLetterSign></NewsLetterSign>
             <CustomIdea></CustomIdea>
         </div>
     );
