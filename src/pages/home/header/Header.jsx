@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import slider1 from '../../../assets/h1.jpeg';
 import slider2 from '../../../assets/h2.jpeg';
 import slider3 from '../../../assets/h3.jpeg';
-import slider4 from '../../../assets/h4.jpeg';
+import slider4 from '../../../assets/h5.jpeg';
 // import './styles.css';
 
 // import required modules
@@ -25,7 +25,7 @@ const Header = () => {
                         <div className="absolute  inset-0 bg-gradient-to-t from-black to-black opacity-30"></div>
                         <h1 className='md:text-7xl text-4xl z-10 font-semibold text-center text-[#ECF2EF]'>
                             <Typewriter
-                                words={['Handcrafted Heart, Homely Art']}
+                                words={['Effortless Booking, Endless Adventures']}
                                 loop={0 | false}
                                 cursor
                                 cursorStyle="_"
@@ -42,7 +42,7 @@ const Header = () => {
                         <div className="absolute min-h-80 inset-0 bg-gradient-to-t from-black to-black opacity-30"></div>
                         <h1 className='md:text-7xl text-4xl z-10 font-semibold text-center text-[#ECF2EF]'>
                             <Typewriter
-                                words={['Rustic Charm, Modern Living']}
+                                words={['Your Dream Vacation, One Click Away']}
                                 loop={0 | false}
                                 cursor
                                 cursorStyle="_"
@@ -59,7 +59,7 @@ const Header = () => {
                         <div className="absolute  inset-0 bg-gradient-to-t from-black to-black opacity-30"></div>
                         <h1 className='md:text-7xl text-4xl z-10 font-semibold text-center text-[#ECF2EF]'>
                             <Typewriter
-                                words={['Experience the Jute and Wood Magic']}
+                                words={['Your Global Gateway to Great Stays']}
                                 loop={0 | false}
                                 cursor
                                 cursorStyle="_"
@@ -76,7 +76,7 @@ const Header = () => {
                         <div className="absolute  inset-0 bg-gradient-to-t from-black to-black opacity-30"></div>
                         <h1 className='md:text-7xl text-4xl z-10 font-semibold text-center text-[#ECF2EF]'>
                             <Typewriter
-                                words={['Experience the Jute and Wood Magic']}
+                                words={['Explore the World, One Booking at a Time']}
                                 loop={0 | false}
                                 cursor
                                 cursorStyle="_"
