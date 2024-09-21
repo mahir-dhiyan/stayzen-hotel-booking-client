@@ -1,35 +1,42 @@
 import React from 'react';
 import { BsSendArrowDown } from "react-icons/bs";
-import txtUs from "../../assets/chat-svgrepo-com.svg"
+import txtUs from "../../assets/chat-svgrepo-com.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { Helmet } from 'react-helmet-async';
+AOS.init();
 const ContactUs = () => {
     return (
         <div>
+             <Helmet>
+                    <title>Contact Us - StayZen</title>
+                </Helmet>
             <div className="bg-[#ECECF2] text-center mt-4 dark:bg-gray-300 p-4 rounded-3xl border-dashed border-2 border-[#C56652] ">
                 <h2 className="text-5xl font-semibold">Contact<span className="text-[#C56652]"> Us</span></h2>
             </div>
             <div>
 
                 <div className="container mx-auto p-4 pt-0 text-black dark:text-fuchsia-50 font-bold">
-                    <h3 className="text-4xl font-bold text-center mt-6">Get in Touch with Us</h3>
-                    <p className="text-xl text-center mt-4">
+                    <h3 data-aos='zoom-in-down' className="text-4xl font-bold text-center mt-6">Get in Touch with Us</h3>
+                    <p data-aos='zoom-in-down' className="text-xl text-center mt-4">
                         We are here to help you with any questions, bookings, or feedback related to your stay. Feel free to reach out to us, and we'll respond as quickly as possible.
                     </p>
                     {/*  */}
 
-                    <div className="text-center space-y-2 mt-6">
+                    <div data-aos='zoom-in-down' className="text-center space-y-2 mt-6">
                         <h4 className="text-3xl font-semibold">Our Location</h4>
 
                         <p className="text-lg">📍 StayZen 1234 Street Name, City, State, ZIP Code, Country</p>
 
                     </div>
-                    <div className="text-center space-y-2 mt-6">
+                    <div data-aos='zoom-in-down' className="text-center space-y-2 mt-6">
                         <h4 className="text-3xl font-semibold">Get in Touch</h4>
                         <p className="text-lg">Email: <a href="mailto:contact@realstate.com" className="text-blue-500">contact@realstate.com</a></p>
                         <p className="text-lg">Phone: <a href="tel:123-456-7890" className="text-blue-500">123-456-7890</a></p>
                     </div>
                 </div>
             </div>
-            <section className="bg-[#ECECF2] text-black rounded-3xl dark:text-fuchsia-50 dark:bg-gray-700  py-12 px-4 sm:px-6 lg:px-8">
+            <section data-aos='zoom-in-down' className="bg-[#ECECF2] text-black rounded-3xl dark:text-fuchsia-50 dark:bg-gray-700  py-12 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold sm:text-4xl mb-2">
                         Drop Us a Message for Any Query.<br></br> We will get back to you.
