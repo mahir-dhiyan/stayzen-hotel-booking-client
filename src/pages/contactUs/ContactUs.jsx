@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsSendArrowDown } from "react-icons/bs";
-import newLetter from "../../assets/chat-svgrepo-com.svg"
+import txtUs from "../../assets/chat-svgrepo-com.svg"
 const ContactUs = () => {
     return (
         <div>
@@ -61,7 +61,7 @@ const ContactUs = () => {
                             </form>
                         </div>
                         <div className="w-56">
-                            <img src={newLetter} alt="" />
+                            <img src={txtUs} alt="" />
                         </div>
                     </div>
                     <p className="mt-3 text-sm">
