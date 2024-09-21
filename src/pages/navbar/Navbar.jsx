@@ -20,11 +20,12 @@ const Navbar = () => {
         <div className="md:flex md:flex-row md:space-y-0  md:gap-4 flex-col space-y-2  ">
 
             <li ><NavLink className='btn bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/">Home</NavLink></li>
-            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/allart">All Art & Craft Items</NavLink></li>
+            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/rooms">Rooms</NavLink></li>
 
 
-            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/addart">Add Craft Item</NavLink></li>
-            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/myart">My Art & Craft List</NavLink></li>
+            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/myBookings">My Bookings</NavLink></li>
+            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/contactUs">Contact Us</NavLink></li>
+            <li><NavLink className='btn  bg-transparent font-semibold dark:text-fuchsia-50 text-[#a95543] text-lg border-none' to="/aboutUs">About</NavLink></li>
 
         </div>
 

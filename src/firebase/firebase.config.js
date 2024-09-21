@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAwbGfUUmoyWt0Jx89MjzKt8HdpyjLq-gs",
-  authDomain: "stayzen-hotel-booking.firebaseapp.com",
-  projectId: "stayzen-hotel-booking",
-  storageBucket: "stayzen-hotel-booking.appspot.com",
-  messagingSenderId: "671363146830",
-  appId: "1:671363146830:web:8ad9d029abad500d9f8f1f"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase

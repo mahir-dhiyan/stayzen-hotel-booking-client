@@ -10,6 +10,10 @@ import Register from "../register/Register";
 import Login from "../login/Login";
 
 import PrivateRoutes from "./PrivateRoutes";
+import Rooms from "../rooms/Rooms";
+import MyBookings from "../myBookings/MyBookings";
+import AboutUs from "../aboutUs/AboutUs";
+import ContactUs from "../contactUs/ContactUs";
 
 
   const router = createBrowserRouter([
@@ -48,6 +52,22 @@ import PrivateRoutes from "./PrivateRoutes";
         {
           path: "/login",
           element: <Login></Login>,
+        },
+        {
+          path: "/rooms",
+          element: <Rooms></Rooms>,
+        },
+        {
+          path: "/myBookings",
+          element: <MyBookings></MyBookings>,
+        },
+        {
+          path: "/aboutUs",
+          element: <AboutUs></AboutUs>,
+        },
+        {
+          path: "/contactUs",
+          element: <ContactUs></ContactUs>,
         },
         // {
         //   path: "/subCatView/:name",
