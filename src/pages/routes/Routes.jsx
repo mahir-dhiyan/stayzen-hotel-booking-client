@@ -14,6 +14,7 @@ import Rooms from "../rooms/Rooms";
 import MyBookings from "../myBookings/MyBookings";
 import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
+import RoomDetails from "../rooms/RoomDetails";
 
 
   const router = createBrowserRouter([
@@ -68,6 +69,11 @@ import ContactUs from "../contactUs/ContactUs";
         {
           path: "/contactUs",
           element: <ContactUs></ContactUs>,
+        },
+        {
+          path: "/roomDetails/:id",
+          element: <RoomDetails></RoomDetails>,
+          loader: ()=> fetch("http://localhost:5000/rooms")
         },
         // {
         //   path: "/subCatView/:name",

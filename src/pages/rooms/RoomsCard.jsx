@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
 
 const RoomsCard = ({ room }) => {
-    const { room_name, description, price_per_night, room_size, availability, image, special_offers } = room;
+    const { room_name, description, price_per_night, room_size, availability, image, special_offers, _id } = room;
+
     return (
         <div className="card bg-[#ECECF2] flex md:flex-row m-4 dark:bg-gray-500 shadow-xl">
-            <div className="  md:w-64 md:min-w-64   h-60">
-                <img className=" w-full  h-full object-cover md:rounded-l-xl rounded-xl md:rounded-none "
-                    src={image}
-                    alt="products" />
-            </div>
+            <Link to={`/roomDetails/${_id}`}>
+                <div className="  md:w-64 md:min-w-64   h-60">
+                    <img className=" w-full  h-full object-cover md:rounded-l-xl rounded-xl md:rounded-none "
+                        src={image}
+                        alt="products" />
+                </div>
+            </Link>
             <div className="card-body dark:text-black   justify-between">
                 <h2 className="card-title text-4xl">{room_name}</h2>
                 <p className="text-xl">{description}</p>
